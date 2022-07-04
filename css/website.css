@@ -1,0 +1,196 @@
+.btn-purple {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+  }
+  
+  .btn-purple:hover {
+    color: #fff;
+    background-color: #da51f8;
+    border-color: #b42ec1;
+  }
+  
+  .btn-purple:focus, .btn-purple.focus {
+    color: #fff;
+    background-color: #b42ec1;
+    border-color: #da51f8;
+    box-shadow: 0 0 0 0.2rem rgba(208, 88, 242, 0.5);
+  }
+  
+  .btn-purple.disabled, .btn-purple:disabled {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+  }
+  
+  .btn-purple:not(:disabled):not(.disabled):active, .btn-purple:not(:disabled):not(.disabled).active,
+  .show > .btn-purple.dropdown-toggle {
+    color: #fff;
+    background-color: #b42ec1;
+    border-color: #6c088c;
+  }
+  
+  .btn-purple:not(:disabled):not(.disabled):active:focus, .btn-purple:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-purple.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(208, 88, 242, 0.5);
+  }
+
+  
+
+
+
+
+  .btn-pink {
+    color: #fff;
+    background-color: #f268a8;
+    border-color: pink;
+  }
+  
+  .btn-pink:hover {
+    color: #cc0088;
+    background-color: pink;
+    border-color: #f268a8;
+  }
+  
+  .btn-pink:focus, .btn-pink.focus {
+    color: #fff;
+    background-color: #f268a8;
+    border-color: #cc0088;
+    box-shadow: 0 0 0 0.2rem pink;
+  }
+  
+  .btn-pink.disabled, .btn-pink:disabled {
+    color: #fff;
+    background-color: pink;
+    border-color: #f37f96;
+  }
+  
+  .btn-pink:not(:disabled):not(.disabled):active, .btn-pink:not(:disabled):not(.disabled).active,
+  .show > .btn-pink.dropdown-toggle {
+    color: pink;
+    background-color: #cc0088;
+    border-color: #f37f96;
+  }
+  
+  .btn-pink:not(:disabled):not(.disabled):active:focus, .btn-pink:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-pink.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem pink;
+  }
+
+  /* 建立video-background play of DIV 套用index.php、index01.php */
+  #video-background,.video-background iframe{
+    /* 設定video為全版的最底層位置 */
+    width: 100%;
+    height: auto;
+    /* min-width: 100%; */
+    min-height: 100%;
+    position: fixed;
+    /* 位置釘死 */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -100;
+    /* 最底的100層 */
+  }
+ 
+  /* 建立文字特效DIV2 套用index.php、index01.php */
+  .video-caption{
+    margin-top: 0px;
+  }
+  .video-caption.text-center h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .margintop-30{
+    margin-top: 30px;
+  }
+
+  /* 下一層用空白鍵 */
+  .margintop-30 .btn.btn-purple{
+    color: #fff;
+  }
+
+  /* 套用main.php */
+  .jumbotron{
+    color: rgb(69, 2, 2);    
+    background-image: url("../images/卡片正面.png");
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-height: 1365px;
+    min-width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+  }
+  body{
+    font-family: Arial, Helvetica, "微軟正黑體";
+    font-weight: bold;
+    padding-top: 65px;  
+    /* 因為fixed-top 永遠置頂，但會佔住上方位置，要調整body的pt */
+    /* margin-top: 60px; */
+    background: -webkit-linear-gradient(rgb(64, 0, 255,0.3),rgba(242, 131, 203, 0.3),rgba(6, 246, 246, 0.1),palevioletred);
+    background: -o-linear-gradient(rgb(64, 0, 255,0.3),rgba(242, 131, 203, 0.3),rgba(6, 246, 246, 0.1),palevioletred);
+    background: -moz-linear-gradient(rgb(64, 0, 255,0.3),rgba(242, 131, 203, 0.3),rgba(6, 246, 246, 0.1),palevioletred);
+    background: linear-gradient(rgb(64, 0, 255,0.3),rgba(242, 131, 203, 0.3),rgba(6, 246, 246, 0.1),palevioletred);
+    background-repeat: no-repeat;
+  }
+  #production{
+    padding-top: 40px;
+  }
+  #sportlogo{
+    padding-top: 40px;
+  }
+  #buyrules{
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .bgcolor{
+    color: #fff;
+    background-color:palevioletred;
+  }
+
+  /* main的表單 */
+  .box{
+    border-radius: 6px;
+    background-color: pink;
+    
+  }
+/* 不可更改textarea的文字長度，將調整功能關閉 */
+  textarea{
+    resize: none;
+  }
+  #footer{
+    padding-top: 10px;
+    background-color: palevioletred;
+    color: aliceblue;
+  }
+
+  /* 設定logo置中參數 */
+  .navbar-nav .nav-item img{
+    margin-top: -15px;
+    margin-right: 10px;
+  }
+
+/* js的設定次功能表css */
+  .dropdown-submenu{
+    position: relative;
+  }
+  .dropdown-submenu .dropdown-menu{
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+  .dropdown-menu.show a:active{
+    color: #FFF;
+  }
+
+  .row img{
+    border: rgb(244, 225, 225,0.1) solid 2px;
+  }
